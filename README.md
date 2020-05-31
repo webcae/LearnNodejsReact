@@ -13,6 +13,10 @@
   - use Babel to transform your code to be ES5-compatible (browser javascript) 
 - Getting Start
   - JS engine (V8 and others)
+  - Interpretation and Compilation(just-in-time (JIT))
+  - Run Node.js scripts -> $> node app.js
+  - Exit from a Node.js program -> Ctrl+C, process.exit(), SIGTERM, process.kill(process.pid, 'SIGTERM')
+  - Read environment variables -> 
 
 ### Learn Express
 
