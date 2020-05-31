@@ -10,9 +10,9 @@
     - Express, Loopback.io, Meteor, Micro, Nx, Socket.io
   - History: 2009 - 
   - How much JavaScript do you need?
-  - use Babel to transform your code to be ES5-compatible (browser javascript)
+  - use Babel to transform your code to be ES5-compatible (browser javascript) 
 - Getting Start
-  - 
+  - JS engine (V8 and others)
 
 ### Learn Express
 
