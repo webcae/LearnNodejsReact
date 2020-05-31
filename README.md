@@ -1,6 +1,6 @@
 ## Learn Node.js
 ### Node.js -> DOCS -> Guides
-- [ ] Getting Started Guide
+- [x] Getting Started Guide
 - [ ] https://nodejs.dev/learn (Node.js -> learn)
 - Quick start
   - Open-Source, Cross-platform, V8 engine, single thread, asynchronous I/O, only javaScript, new ECMAScript standards use npm to manage vast number of libs
