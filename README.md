@@ -8,6 +8,8 @@
     - require('http') -> http.createServer -> server.listen
   - Some platforms:
     - Express, Loopback.io, Meteor, Micro, Nx, Socket.io
+  - History: 2009 - 
+  - How much JavaScript do you need?
 
 - Getting Start
 
