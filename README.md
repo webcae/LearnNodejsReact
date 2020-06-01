@@ -16,7 +16,9 @@
   - Interpretation and Compilation(just-in-time (JIT))
   - Run Node.js scripts -> $> node app.js
   - Exit from a Node.js program -> Ctrl+C, process.exit(), SIGTERM, process.kill(process.pid, 'SIGTERM')
-  - Read environment variables -> 
+  - Access environment variables -> process.env.XXX
+  - REPL -> CommandLine interactive mode, tab key -> auto complete, Dot commands(.help)
+  - Accept arguments from the command line -> process.argv.forEach(), process.agrv.slice(), require('minimist')(process.argv.slice(2))
 
 ### Learn Express
 
