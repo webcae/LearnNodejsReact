@@ -27,8 +27,10 @@
     - progress bar in console, progress lib (npm install progress)
   - Accept input from the command line -> readline module, but readline-sync package is more simple, and Inquirer.js package
   - How to use exports -> module.exports, 1) module.exports = somefunc 2) exports.somefunc = somefunc 3) exports.somefunc = {}
-  - npm -> 
-
+  - npm -> "npm install" from "package.json", --save / --save-dev option, "npm update"
+  - Runing task -> npm run <task-name>, task is script defined in package.json, also Webpack
+  - Location of npm install -> npm install -g <package-name> for global installation
+  
   
 ### Learn Express
 
