@@ -19,7 +19,17 @@
   - Access environment variables -> process.env.XXX
   - REPL -> CommandLine interactive mode, tab key -> auto complete, Dot commands(.help)
   - Accept arguments from the command line -> process.argv.forEach(), process.agrv.slice(), require('minimist')(process.argv.slice(2))
+  - Output to the command line
+    - console.log(), %s, %d, %i, %o, console.clear(), console.count(), console.trace()
+    - time(), timeEnd()
+    - stdout, stderr
+    - color the output, Chalk lib (npm install chalk)
+    - progress bar in console, progress lib (npm install progress)
+  - Accept input from the command line -> readline module, but readline-sync package is more simple, and Inquirer.js package
+  - How to use exports -> module.exports, 1) module.exports = somefunc 2) exports.somefunc = somefunc 3) exports.somefunc = {}
+  - npm -> 
 
+  
 ### Learn Express
 
 ### Learn React
