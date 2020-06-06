@@ -30,7 +30,10 @@
   - npm -> "npm install" from "package.json", --save / --save-dev option, "npm update"
   - Runing task -> npm run <task-name>, task is script defined in package.json, also Webpack
   - Location of npm install -> npm install -g <package-name> for global installation
-  
+  - How to use or execute a package
+    - library    -> require('lib_name') 
+    - executable -> npx exe_fileName (which is installed under node_module/.bin folder)
+  - package.json
   
 ### Learn Express
 
