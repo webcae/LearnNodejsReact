@@ -33,7 +33,8 @@
   - How to use or execute a package
     - library    -> require('lib_name') 
     - executable -> npx exe_fileName (which is installed under node_module/.bin folder)
-  - package.json
+  - package.json -> name, author, contributors, bugs, homepage, version, license, keywords, description, repository, main, private, scripts, dependencies, devDependencies, engines, browserslist, Command-specific properties, Package vesions
+  - package-lock.json -> 
   
 ### Learn Express
 
