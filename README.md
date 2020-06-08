@@ -36,7 +36,12 @@
   - package.json -> name, author, contributors, bugs, homepage, version, license, keywords, description, repository, main, private, scripts, dependencies, devDependencies, engines, browserslist, Command-specific properties, Package vesions
   - package-lock.json -> It sets your currently installed version of each package in stone, and npm will use those exact versions when running npm install. The dependencies versions will be updated in the package-lock.json file when you run npm update.
   - How to find the installed version of an npm package -> npm list, npm list -g, npm list --depth=0, npm list packageName, npm list dependencyPackName, npm view packageName version
-  - How to Install an older version of an npm package -> 
+  - How to Install an older version of an npm package -> npm install <package>@<version>
+  - How to update all the Node.js dependencies -> npm outdated, npm install -g npm-check-updates -> ncu -u -> npm update or npm install.
+  - Semantic Versioning using npm -> all versions have 3 digits: major.minor.patch
+  - Uninstalling npm packages -> npm uninstall [-S -D -g]<package-name>
+  - npm global or local packages -> 
+  
    
 ### Learn Express
 
