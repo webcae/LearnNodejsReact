@@ -40,7 +40,14 @@
   - How to update all the Node.js dependencies -> npm outdated, npm install -g npm-check-updates -> ncu -u -> npm update or npm install.
   - Semantic Versioning using npm -> all versions have 3 digits: major.minor.patch
   - Uninstalling npm packages -> npm uninstall [-S -D -g] package-name
-  - npm global or local packages -> 
+  - npm global or local packages -> In general, all packages should be installed locally. A package should be installed globally when it provides an executable command that you run from the shell (CLI), and it's reused across projects. [npm list -g --depth 0]
+  - npm dependencies and devDependencies -> The package is automatically listed in the package.json file [-S, -D], npm install --production
+  - The npx Node.js Package Runner -> npx lets you run code built with Node.js and published through the npm registry. [npx commandname], [npx node@10 -v], [npx https://gist.github.com/zkat/4....]
+  -   
+  - The Node.js Event Loop
+  
+  
+  
   
    
 ### Learn Express
