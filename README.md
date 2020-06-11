@@ -43,8 +43,15 @@
   - npm global or local packages -> In general, all packages should be installed locally. A package should be installed globally when it provides an executable command that you run from the shell (CLI), and it's reused across projects. [npm list -g --depth 0]
   - npm dependencies and devDependencies -> The package is automatically listed in the package.json file [-S, -D], npm install --production
   - The npx Node.js Package Runner -> npx lets you run code built with Node.js and published through the npm registry. [npx commandname], [npx node@10 -v], [npx https://gist.github.com/zkat/4....]
-  -   
-  - The Node.js Event Loop
+  - The Node.js Event Loop -> The Node.js JavaScript code runs on a single thread. asynchronous, non-blocking I/O, Most browsers have an event loop.
+    - Blocking the event loop -> The call stack(a LIFO queue)
+    - A simple event loop explanation
+    - Queuing function execution -> setTimeout(() => {}, 0)
+    - The Message Queue -> The Message Queue is also where user-initiated events like click or keyboard events, Or also DOM events like onLoad.
+    - ES6 Job Queue -> Promises
+  - process.nextTick() -> 
+  
+  
   
   
   
