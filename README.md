@@ -49,13 +49,14 @@
     - Queuing function execution -> setTimeout(() => {}, 0)
     - The Message Queue -> The Message Queue is also where user-initiated events like click or keyboard events, Or also DOM events like onLoad.
     - ES6 Job Queue -> Promises
-  - process.nextTick() -> 
+  - process.nextTick() -> tell the JS engine to process a function asynchronously (after the current function), but as soon as possible, not queue it.
+  - Understanding setImmediate() -> A setTimeout() callback with a 0ms delay is very similar to setImmediate().
+  - Discover JavaScript Timers -> setTimeout(), returns the timer id. setInterval(). Recursive setTimeout.
+  - JavaScript Asynchronous Programming and Callbacks -> 
   
   
   
-  
-  
-  
+ 
    
 ### Learn Express
 
